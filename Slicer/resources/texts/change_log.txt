@@ -1,0 +1,83 @@
+[1.5.5]
+
+- Fix an error with TPU material
+- Printing profile adjustments
+- Internal bug fixing
+
+[1.5.4]
+
+- Fracktory will now not allow you send gcode to a machine with all extruders empty
+- Fixed an error that prevented printing on printers with some materials
+- Printing profile adjustments
+- Internal bug fixing
+
+[1.5.3]
+
+- Now Fracktory will make sure you send the right gcode to the right printer, checking its material and nozzles
+- Fixed a problem that sometimes would cause multiply and arrange not working well
+- Fixed errors when adding a new STL into an existing mirror print mode scene
+- Fixed an issue where settings information were not displayed
+- Improved control errors when users couldn't log in to the cloud
+- Internal bug fixing
+
+[1.5.2]
+
+- Fixed an issue where Left-to-Right (LTR) languages would appear incorrectly
+- Fixed a problem that prevented from opening saved mirror and duplication projects
+- Improved several visual errors when using IDEX technology
+- Improved model reposition when using IDEX technology
+
+[1.5.1]
+
+- Updated welcome wizard with more information for new users
+- Improved translations
+- Added new links to more detailed support information
+- Print modes now persist with material/hotend change
+- Printing profile adjustments
+- Fixed a problem that made it impossible to create custom materials for extruders X and M 
+- Fixed problem that prevented opening previously saved projects
+
+[1.5.0]
+
+- Performance improvements most noticeable when switching between IDEX printing modes
+- SmartSlice plugin not installed by default
+- Minor printing profile adjustments
+
+[1.4.0]
+
+- Added profile compatibility for metal filled materials (Epsilon Series): Ultrafuse 316L and Ultrafuse 17-4 PH
+- Added profile compatibility for Fracktal works Filaments PET CF15 (Epsilon Series)
+- Fixed profile compatibility for some materials
+- Internal bug fixing
+
+
+[1.3.0]
+
+- New Post Processing script "Pause at Height" that allows to pause the printing at a certain layer or height
+- Internal bug fixing
+
+
+[1.2.2]
+
+- Integration with the new Fracktal works Cloud
+- New visualization of the Mirror and Duplication modes in the build plate
+- Refine visibility of the print mode selected on the Fracktal works Print Mode Tool plugin
+- Fix problem with the Start Purge Speed
+- The size of the Epsilon bed files has been reduced
+
+
+[1.1.0]
+
+- Internal bug fixing
+- Native integration with SmartSlice plugin, by Teton. The plugin has been adapted and fully validated to run smoothly within Fracktal works ecosystem. It includes all the SmartSlice latest features, Fracktal works materials library, and Fracktal works SSO authentication.
+
+
+[1.0.0]
+
+* Fracktory is based on Ultimaker Cura 4.8
+
+- New plugin to enable the Fracktal works IDEX system with Mirror and Duplication print modes
+- New Single T1 and Single T2 print modes
+- Connect Fracktory with the Fracktal works Cloud  and use your connected printers
+- Improved UI
+- Improved general performance since Fracktal works Cura 3.4.3
